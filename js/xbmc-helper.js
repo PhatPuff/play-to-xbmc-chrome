@@ -180,7 +180,7 @@ function buildPluginPath(type, videoId) {
             return 'plugin://plugin.audio.mixcloud/?mode=40&key=' + encodeURIComponent(videoId);
 
         case 'magnet':
-            return 'plugin://plugin.video.xbmctorrent/play/' + encodeURIComponent(videoId);
+            return 'plugin://plugin.video.pulsar/play/' + encodeURIComponent(videoId);
 
         case 'ardmediathek':
             return 'plugin://plugin.video.ardmediathek_de/?mode=playVideo&url=' + encodeURIComponent(videoId);
